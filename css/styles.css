@@ -25,16 +25,6 @@ div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; p
 
 div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  min-height:350px;}
 
-div#HomeGalleryNavigation{ 
-	width: 600px;
-	height: 112px;
-	background: url(../images/Neuromama_Finance.png) center no-repeat;
-	background-size: 600px 112px;
-	top: 20px;
-	position: relative;
-	margin: 0 auto;
-}
-
 .style1{
 	font-size: 16pt;
 	font-weight: bold;

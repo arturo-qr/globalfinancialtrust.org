@@ -4,7 +4,7 @@
 			<div style="float: left; height: 29px;">
 				<a href="#">
 					<div style="position: relative; left: 17px; float: left; height: 29px;">
-						<img src="images/globalft.jpg" alt="GlobalFinancialTrust" height="31" width="80">
+						<img src="images/globalft.png" alt="GlobalFinancialTrust" height="31" width="80">
 					</div>
 				</a>
 				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">Global Financial Trust, LTD.</span>
@@ -69,14 +69,13 @@
 					</ul> 
 				</li> 
 				
-				<!--Aces of Acts-->
+				<!--Global Media and Entertainment-->
 				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" onclick="return false;" class="btn-6">Ace of Acts</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-					    <li style="padding-top: 8px; "><a href="#" >Who is Aces of Acts?</a></li>
-					    <li style="padding-top: 8px; "><a href="http://www.acesofacts.com/gallery.asp?id=23" >Gallery</a></li>
-					    <li style="padding-top: 8px; "><a href="http://www.acesofacts.com/video.asp" target="_blank">Videos</a></li>
-					    <li style="padding-top: 8px; "><a href="#" >Important Links</a></li>
-					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://www.acesofacts.com/" target="_blank">More on Aces of Acts </a></li>
+					    <li style="padding-top: 8px;"><a href="#" target="_blank">Who is Global Media and Entertainment?</a></li>
+						<li style="padding-top: 8px;"><a href="#" target="_blank">Philosophy</a></li>
+						<li style="padding-top: 8px;"><a href="http://www.globalentertainmentandmedia.com/Download-Brochures.html" target="_blank">Download Information</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://www.globalentertainmentandmedia.com/" target="_blank">More on Global Media and Entertainment</a></li>
 					</ul> 
 				</li> 
 				
@@ -88,7 +87,7 @@
 					</ul> 
 				</li> 
 				
-				<!--Amnistya Foundatio-->
+				<!--Ion Fusion-->
 				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-8">Amnistya Foundation</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
 						<li style="padding-top: 8px;"><a href="#" >Ads Policy</a></li>
@@ -96,13 +95,10 @@
 					</ul> 
 				</li> 
 				
-				<!--Global Media and Entertainment-->
+				<!--Other Projects-->
 				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" onclick="return false;" class="btn-9">Global Media and Entertainment</a>
 					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
-						<li style="padding-top: 8px;"><a href="#" target="_blank">Who is Global Media and Entertainment?</a></li>
-						<li style="padding-top: 8px;"><a href="#" target="_blank">Philosophy</a></li>
-						<li style="padding-top: 8px;"><a href="http://www.globalentertainmentandmedia.com/Download-Brochures.html" target="_blank">Download Information</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://www.globalentertainmentandmedia.com/" target="_blank">More on Global Media and Entertainment</a></li>
+						
 					</ul> 
 				</li> 
 			</ul>
