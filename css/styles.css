@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* Bellagio CSS Document */
+
+
+/* =universals
+These rules are applied to all elements unless otherwise specified below.*/
+* { margin : 0 0px 0 0; 
+padding : 0; }
+h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+
+/***** Removes the dotted outline in FireFox when image links are clicked on *****/
+a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
+a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}
+
+
+/* =html */
+/*This creates a persistent scroll bar in Firefox to prevent page jump*/
+/*html { overflow: -moz-scrollbars-vertical !important; }*/
+html { overflow-y:auto; }
+
+/* =body */
+body{background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;}
+
+div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; position:relative; }
+
+div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  min-height:350px;}
+
+div#HomeGalleryNavigation{ 
+	width: 600px;
+	height: 112px;
+	background: url(../images/Neuromama_Finance.png) center no-repeat;
+	background-size: 600px 112px;
+	top: 20px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.style1{
+	font-size: 16pt;
+	font-weight: bold;
+	color: #004660;
+	text-decoration: underline;
+	text-align: center;
+	margin:0 auto;
+	display:block;
+	padding-top:5px;
+}
+.style2{
+	font-size: 15pt;
+	font-weight: bold;
+	color: #004660;
+
+}
+.style3{
+    font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #004660;
+}
+.style4{ 
+	font-size: small;
+	font-style: italic;
+	color: #004660;
+} 
+
+.style5{ 
+	font-size: small;
+	color: #000E53;
+} 
+
+.style6{ 
+	font-size: 12pt;
+	font-weight: bold;
+	color: #000E53;
+} 
+
+.style7{
+	font-size: 15pt;
+	font-weight: bold;
+	color: #004660;
+}
+
+.center{	text-align: center;}
+
+a.hiddenlink:link{color:#000000; text-decoration:none;}
+a.hiddenlink:hover{color:#000099; text-decoration:underline;}
+a.hiddenlink:visited{color:#000000; text-decoration:none;}
+a.hiddenlink:active{color:#000000; text-decoration:none;}
+
+ul.simple li{
+	list-style-type: circle;
+	font-weight: bold;
+	margin-left:5em;
+	font: 12px/16px Arial,Helvetica,sans-serif;
+	font-size:13pt;
+	padding: 0px 0px 4px 0px;
+	color: #000000;
+}
+
+
+ol.ordered-list li{
+	list-style-type: decimal;
+	font-weight: bold;
+	margin-left:5em;
+	font: 12px/16px Arial,Helvetica,sans-serif;
+	font-size:13pt;
+	padding: 0px 0px 4px 0px;
+	color: #000000;
+}
+ol.ordered-list2 li{
+	list-style-type: upper-roman;
+	font-weight: bold;
+	margin-left:5em;
+	font: 12px/16px Arial,Helvetica,sans-serif;
+	font-size:13pt;
+	padding: 0px 0px 4px 0px;
+	color: #000000;
+}
+ol.ordered-list3 li{
+	list-style-type: lower-alpha;
+	font-weight: bold;
+	margin-left:5em;
+	font: 12px/16px Arial,Helvetica,sans-serif;
+	font-size:13pt;
+	padding: 0px 0px 4px 0px;
+	color: #000000;
+}
+
+/* for link style change */	
+a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
+a:link.off, a:visited.off {color: #69563E; text-decoration:none;}
+a:link.done, a:visited.done {color: #69563E; text-decoration:none;}
+a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
+
+.NoView{display: none;}
+.clearAll{ clear: both;}
+
+.inner {
+	
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-align: justify;
+}
+.innerclear{
+	
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-align: justify;
+}
+.innerbold{
+	width: 995px;
+	margin: 0px auto;
+	
+	text-align: justify;
+}
+
+/*Footer and header*/
+
+/*************************************
+	Footer Styles
+*************************************/
+
+a.download:link{color: #000000; text-decoration: none; font-size: 25px; font-weight:bold;}
+a.download:hover{color: #000099; text-decoration: underline; font-size: 25px; font-weight:bold;}
+a.download:visited{color: #000000; text-decoration: none; font-size: 25px; font-weight:bold;}
+a.download:active{color: #000099; text-decoration: none; font-size: 25px; font-weight:bold;}
+
+div#FooterContainer{ clear: both; width: 100%;}
+div#Footer{width: 980px; height: 125px; margin: 5px auto; padding-top: 28px;}
+
+div#floatright{position:relative; float:right; margin-right:50px; margin-top:20px;}
+
+#FooterCopyright{ position:relative; top:-30px; font: normal 10px/16px Arial, Helvetica, sans-serif; color: #000; text-align: center; clear: both; }
+#FooterCopyright img{ margin: 10px 0px 0px 0px; border: 0px; }
+#FooterCopyright a:link{color: #000099; text-decoration: none; font-size:11px; font-weight:bold;}
+#FooterCopyright a:hover{color: #000099; text-decoration: underline; font-size:11px; font-weight:bold;}
+#FooterCopyright a:visited{color: #000099; text-decoration: none; font-size:11px; font-weight:bold;}
+#FooterCopyright a:active{color: #000099; text-decoration: none; font-size:11px; font-weight:bold;}
+
+#PropertyLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #000; text-transform: uppercase; float: left; }
+#PropertyLinks a{ text-decoration: none; color: #000; }
+#PropertyLinks a:hover{ text-decoration: none; color: #FFFFFF; }
+
+#CorporateContainer {
+	background-color: #190D08 ;
+	bottom: 0px;
+	margin: 0px ;
+	left: 0px ;
+	position: absolute;
+	width: 150px ;
+}
+
+#CorporateInner {
+	background-color: #190D08 ;
+	line-height: 16px;
+	text-align: left;
+	border-bottom-width: 0px ;
+	padding: 6px 0px 6px 10px ;
+	display: none ;
+	
+}
+#CorporateInner a:link {color:white;} 
+#CorporateInner a:visited {color:white;}  
+#CorporateInner a:hover {color:#A1A1A1;} 
+#CorporateInner a:active {color:#A1A1A1;}
+/*************************************
+	Header Styles
+*************************************/
+div#HeaderContainer {
+	height: 137px;
+	width: 100%;
+	position: relative;
+	z-index: 20;
+	background: #000E52 url(../images/layout/Main-Background22.jpg) repeat-x;
+}
+
+div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images/button/Header-Background.png) top center no-repeat; }
+div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
+
+#joinNow:link{color:#fff; text-decoration:none; font-size:11pt;}
+#joinNow:visited{color:#fff; text-decoration:none; font-size:11pt;}
+#joinNow:hover{color:#fff; text-decoration:underline; font-size:11pt;}
