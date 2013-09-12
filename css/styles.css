@@ -126,7 +126,7 @@ a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
 .clearAll{ clear: both;}
 
 .inner {
-	
+	font-family: 'Helvetica','Trebuchet';
 	margin: 0px auto;
 	padding-left: 30px;
 	padding-right: 30px;
