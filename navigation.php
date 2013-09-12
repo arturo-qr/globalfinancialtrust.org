@@ -26,7 +26,7 @@
 				<!--Big Ideas Tech-->
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-2">Big Ideas Tech</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-						<li style="padding-top: 8px;"><a href="#" >Who is Big Ideas Tech?</a></li>
+						<li style="padding-top: 8px;"><a href="who-is-bigideastech.php" >Who is Big Ideas Tech?</a></li>
 						<li style="padding-top: 8px;"><a href="http://bigideastech.com/games.aspx" target="_blank">Games</a></li>
 						<li style="padding-top: 8px;"><a href="http://bigideastech.com/forum/" target="_blank">Forum</a></li>
 						<li style="padding-top: 8px;"><a href="http://bigideastech.com/forum/index.php?PHPSESSID=gn43h9l78vmlbc4to1mchgpgg2&action=register" target="_blank">Forum Registration</a></li>
@@ -49,7 +49,7 @@
 				<!--TviMama-->
 				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-4">TviMama</a>
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-					    <li style="padding-top: 8px;"><a href="#" >Who is TviMama?</a></li>
+					    <li style="padding-top: 8px;"><a href="who-is-tvimama.php" >Who is TviMama?</a></li>
 					    <li style="padding-top: 8px;"><a href="http://www.tvimama.com" target="_blank">TviMama.com</a></li>
 					    <li style="padding-top: 8px;"><a href="http://www.tvimama.net" target="_blank">More On TviMama</a></li>
 					    <li style="padding-top: 8px;"><a href="http://tvimama.com/users/login" target="_blank">Registration</a></li>

@@ -13,7 +13,7 @@
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<a class="style3" href="why-this-investment-makes-sense-neuromama.php">Why this investment makes sense?</a>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<a class="style3" href="revolutionizing-the-industry-neuromama.php">Revolutionizing the industry with NeuroMama</a>
+						<a class="style3" href="revolutionizing-the-industry-neuromama.php">Revolutionizing the industry</a>
 					</h1>
 					</br>
 					<h1 class="style2">A few simple reasons why this investment makes sense.</h1>
