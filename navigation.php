@@ -88,9 +88,10 @@
 				</li> 
 				
 				<!--Ion Fusion-->
-				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-8">Amnistya Foundation</a>
+				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-8">Ion Fusion</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
-						<li style="padding-top: 8px;"><a href="#" >Ads Policy</a></li>
+						<li style="padding-top: 8px;"><a href="introduction-Ion-Fusion.php" >Introduction</a></li>
+						<li style="padding-top: 8px;"><a href="how-it-works-Ion-Fusion.php" >How it works</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Contact Us</a></li>
 					</ul> 
 				</li> 
