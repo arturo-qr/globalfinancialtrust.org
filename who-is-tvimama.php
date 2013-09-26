@@ -6,9 +6,10 @@
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
 			
-				<?php // include "top-banners.php" ?>
+				<?php // include "top-banners.php"; ?>
 				<div class="inner">
-					<span class="style2"><center><b>Who is TViMama:</b></center></span><br>
+					<span class="style1">Who is TViMama:</span>
+					<br>
 					TViMama is the streaming television division of Global Entertainment and Media, LTD. The digital streaming platforms of the TViMama franchise are:
 					<br/><br/>
 					<ul class="simple">
